@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="docs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/../../Processing/processing-3.5.4/core/library/processing-sound-master/docs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Processing/processing-3.5.4/core/library/processing-sound-master/src" />
+    </SOURCES>
+  </library>
+</component>

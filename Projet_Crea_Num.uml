@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Test</OriginalElement>
+  <nodes>
+    <node x="292.9747978287355" y="416.0">Supernova</node>
+    <node x="586.6388888888888" y="284.0">Explosion</node>
+    <node x="1244.863099590118" y="416.0">Boutons</node>
+    <node x="608.1414644954023" y="182.0">ParticuleExplosion</node>
+    <node x="705.6414644954023" y="528.0">BoutonSupernova</node>
+    <node x="1145.6414644954023" y="528.0">BoutonRetourSupernova</node>
+    <node x="893.6414644954023" y="528.0">BoutonRetourInformation</node>
+    <node x="1657.6388888888887" y="416.0">Information</node>
+    <node x="14.944444444444343" y="182.0">ElementNuage</node>
+    <node x="372.3888888888888" y="182.0">EtoileArrierePlan</node>
+    <node x="430.6388888888888" y="284.0">ArrierePlan</node>
+    <node x="184.3888888888888" y="182.0">ParticuleEtoile</node>
+    <node x="617.3605239836045" y="0.0">Test</node>
+    <node x="192.3888888888888" y="284.0">Etoile</node>
+    <node x="1553.6414644954023" y="528.0">BoutonInformation</node>
+    <node x="73.19444444444434" y="284.0">Nuage</node>
+    <node x="1267.6414644954023" y="690.0">Menu</node>
+    <node x="1381.6414644954023" y="528.0">BoutonSuivant</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Menu" target="BoutonInformation">
+      <point x="18.823529411764753" y="-26.0" />
+      <point x="1326.4649939071671" y="630.0" />
+      <point x="1691.6414644954023" y="630.0" />
+      <point x="46.0" y="26.0" />
+    </edge>
+    <edge source="BoutonSupernova" target="Boutons">
+      <point x="63.0" y="-26.0" />
+      <point x="852.6414644954023" y="498.0" />
+      <point x="1255.263099590118" y="498.0" />
+      <point x="-41.60000000000002" y="26.0" />
+    </edge>
+    <edge source="Menu" target="Information">
+      <point x="23.529411764705856" y="-26.0" />
+      <point x="1331.1708762601081" y="640.0" />
+      <point x="1748.1414644954023" y="640.0" />
+      <point x="1748.1414644954023" y="508.0" />
+      <point x="1742.6388888888887" y="508.0" />
+      <point x="17.0" y="26.0" />
+    </edge>
+    <edge source="Etoile" target="ParticuleEtoile">
+      <point x="-12.0" y="-26.0" />
+      <point x="228.3888888888888" y="264.0" />
+      <point x="212.3888888888888" y="264.0" />
+      <point x="-56.0" y="26.0" />
+    </edge>
+    <edge source="BoutonInformation" target="Boutons">
+      <point x="-69.0" y="-26.0" />
+      <point x="1576.6414644954023" y="498.0" />
+      <point x="1338.463099590118" y="498.0" />
+      <point x="41.60000000000002" y="26.0" />
+    </edge>
+    <edge source="Explosion" target="Test">
+      <point x="-40.0" y="-26.0" />
+      <point x="606.6388888888888" y="254.0" />
+      <point x="589.8636867176245" y="254.0" />
+      <point x="589.8636867176245" y="162.0" />
+      <point x="655.1383017613823" y="162.0" />
+      <point x="-2.2222222222221717" y="26.0" />
+    </edge>
+    <edge source="Menu" target="Test">
+      <point x="32.94117647058829" y="-26.0" />
+      <point x="1340.5826409659905" y="660.0" />
+      <point x="1804.1388888888887" y="660.0" />
+      <point x="1804.1388888888887" y="82.0" />
+      <point x="690.6938573169377" y="82.0" />
+      <point x="33.33333333333326" y="26.0" />
+    </edge>
+    <edge source="ArrierePlan" target="Test">
+      <point x="51.0" y="-26.0" />
+      <point x="549.6388888888888" y="264.0" />
+      <point x="585.4192422731801" y="264.0" />
+      <point x="585.4192422731801" y="152.0" />
+      <point x="650.6938573169377" y="152.0" />
+      <point x="-6.666666666666629" y="26.0" />
+    </edge>
+    <edge source="Information" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="1725.6388888888887" y="92.0" />
+      <point x="686.2494128724934" y="92.0" />
+      <point x="28.888888888888914" y="26.0" />
+    </edge>
+    <edge source="ParticuleExplosion" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="704.1414644954023" y="152.0" />
+      <point x="659.5827462058267" y="152.0" />
+      <point x="2.2222222222221717" y="26.0" />
+    </edge>
+    <edge source="Nuage" target="ElementNuage">
+      <point x="-33.0" y="-26.0" />
+      <point x="84.19444444444434" y="264.0" />
+      <point x="38.94444444444434" y="264.0" />
+      <point x="-48.0" y="26.0" />
+    </edge>
+    <edge source="BoutonSuivant" target="Test">
+      <point x="38.0" y="-26.0" />
+      <point x="1495.6414644954023" y="508.0" />
+      <point x="1478.4914644954024" y="508.0" />
+      <point x="1478.4914644954024" y="112.0" />
+      <point x="677.3605239836045" y="112.0" />
+      <point x="20.0" y="26.0" />
+    </edge>
+    <edge source="BoutonSupernova" target="Test">
+      <point x="21.0" y="-26.0" />
+      <point x="810.6414644954023" y="142.0" />
+      <point x="664.027190650271" y="142.0" />
+      <point x="6.666666666666629" y="26.0" />
+    </edge>
+    <edge source="Supernova" target="ArrierePlan">
+      <point x="18.0" y="-26.0" />
+      <point x="370.9747978287355" y="366.0" />
+      <point x="498.6388888888888" y="366.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="BoutonRetourSupernova" target="Test">
+      <point x="-54.0" y="-26.0" />
+      <point x="1199.6414644954023" y="488.0" />
+      <point x="1222.3914644954023" y="488.0" />
+      <point x="1222.3914644954023" y="122.0" />
+      <point x="672.9160795391599" y="122.0" />
+      <point x="15.555555555555543" y="26.0" />
+    </edge>
+    <edge source="Nuage" target="Test">
+      <point x="33.0" y="-26.0" />
+      <point x="150.19444444444434" y="264.0" />
+      <point x="169.44444444444434" y="264.0" />
+      <point x="169.44444444444434" y="112.0" />
+      <point x="632.9160795391599" y="112.0" />
+      <point x="-24.444444444444457" y="26.0" />
+    </edge>
+    <edge source="Supernova" target="Explosion">
+      <point x="42.0" y="-26.0" />
+      <point x="394.9747978287355" y="386.0" />
+      <point x="616.6388888888888" y="386.0" />
+      <point x="-30.0" y="26.0" />
+    </edge>
+    <edge source="Menu" target="BoutonRetourInformation">
+      <point x="-9.41176470588232" y="-26.0" />
+      <point x="1298.22969978952" y="610.0" />
+      <point x="1067.6414644954023" y="610.0" />
+      <point x="58.0" y="26.0" />
+    </edge>
+    <edge source="EtoileArrierePlan" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="464.3888888888888" y="142.0" />
+      <point x="646.2494128724934" y="142.0" />
+      <point x="-11.111111111111086" y="26.0" />
+    </edge>
+    <edge source="ElementNuage" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="86.94444444444434" y="102.0" />
+      <point x="628.4716350947156" y="102.0" />
+      <point x="-28.888888888888914" y="26.0" />
+    </edge>
+    <edge source="BoutonRetourInformation" target="ParticuleExplosion">
+      <point x="-77.33333333333331" y="-26.0" />
+      <point x="932.308131162069" y="488.0" />
+      <point x="971.9438573169377" y="488.0" />
+      <point x="971.9438573169377" y="264.0" />
+      <point x="768.1414644954023" y="264.0" />
+      <point x="64.0" y="26.0" />
+    </edge>
+    <edge source="Etoile" target="Test">
+      <point x="-36.0" y="-26.0" />
+      <point x="204.3888888888888" y="254.0" />
+      <point x="173.8888888888888" y="254.0" />
+      <point x="173.8888888888888" y="122.0" />
+      <point x="637.3605239836045" y="122.0" />
+      <point x="-20.0" y="26.0" />
+    </edge>
+    <edge source="BoutonRetourSupernova" target="Boutons">
+      <point x="54.0" y="-26.0" />
+      <point x="1307.6414644954023" y="508.0" />
+      <point x="1296.863099590118" y="508.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="BoutonRetourInformation" target="Boutons">
+      <point x="77.33333333333331" y="-26.0" />
+      <point x="1086.9747978287355" y="508.0" />
+      <point x="1276.063099590118" y="508.0" />
+      <point x="-20.799999999999955" y="26.0" />
+    </edge>
+    <edge source="Supernova" target="Test">
+      <point x="-54.0" y="-26.0" />
+      <point x="298.9747978287355" y="396.0" />
+      <point x="4.444444444444343" y="396.0" />
+      <point x="4.444444444444343" y="92.0" />
+      <point x="624.027190650271" y="92.0" />
+      <point x="-33.33333333333337" y="26.0" />
+    </edge>
+    <edge source="ParticuleEtoile" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="268.3888888888888" y="132.0" />
+      <point x="641.8049684280488" y="132.0" />
+      <point x="-15.555555555555543" y="26.0" />
+    </edge>
+    <edge source="BoutonSupernova" target="Supernova">
+      <point x="-63.0" y="-26.0" />
+      <point x="726.6414644954023" y="508.0" />
+      <point x="367.9747978287355" y="508.0" />
+      <point x="15.0" y="26.0" />
+    </edge>
+    <edge source="Supernova" target="Nuage">
+      <point x="-30.0" y="-26.0" />
+      <point x="322.9747978287355" y="376.0" />
+      <point x="139.19444444444434" y="376.0" />
+      <point x="22.0" y="26.0" />
+    </edge>
+    <edge source="BoutonInformation" target="Test">
+      <point x="-23.0" y="-26.0" />
+      <point x="1622.6414644954023" y="102.0" />
+      <point x="681.8049684280488" y="102.0" />
+      <point x="24.444444444444457" y="26.0" />
+    </edge>
+    <edge source="Menu" target="BoutonSuivant">
+      <point x="9.41176470588232" y="-26.0" />
+      <point x="1317.0532292012847" y="610.0" />
+      <point x="1495.6414644954023" y="610.0" />
+      <point x="38.0" y="26.0" />
+    </edge>
+    <edge source="BoutonRetourInformation" target="Test">
+      <point x="0.0" y="-26.0" />
+      <point x="1009.6414644954023" y="488.0" />
+      <point x="988.4464329234513" y="488.0" />
+      <point x="988.4464329234513" y="132.0" />
+      <point x="668.4716350947156" y="132.0" />
+      <point x="11.111111111111086" y="26.0" />
+    </edge>
+    <edge source="ArrierePlan" target="EtoileArrierePlan">
+      <point x="-51.0" y="-26.0" />
+      <point x="447.6388888888888" y="264.0" />
+      <point x="403.05555555555543" y="264.0" />
+      <point x="-61.33333333333337" y="26.0" />
+    </edge>
+    <edge source="BoutonSuivant" target="Boutons">
+      <point x="-38.0" y="-26.0" />
+      <point x="1419.6414644954023" y="508.0" />
+      <point x="1317.663099590118" y="508.0" />
+      <point x="20.799999999999955" y="26.0" />
+    </edge>
+    <edge source="Supernova" target="Etoile">
+      <point x="-6.0" y="-26.0" />
+      <point x="346.9747978287355" y="356.0" />
+      <point x="264.3888888888888" y="356.0" />
+      <point x="24.0" y="26.0" />
+    </edge>
+    <edge source="Menu" target="BoutonSupernova">
+      <point x="-18.823529411764753" y="-26.0" />
+      <point x="1288.8179350836376" y="630.0" />
+      <point x="831.6414644954023" y="630.0" />
+      <point x="42.0" y="26.0" />
+    </edge>
+    <edge source="Menu" target="BoutonRetourSupernova">
+      <point x="-4.705882352941217" y="-26.0" />
+      <point x="1302.935582142461" y="600.0" />
+      <point x="1199.6414644954023" y="600.0" />
+      <point x="-54.0" y="26.0" />
+    </edge>
+    <edge source="Explosion" target="ParticuleExplosion">
+      <point x="0.0" y="-26.0" />
+      <point x="646.6388888888888" y="264.0" />
+      <point x="640.1414644954023" y="264.0" />
+      <point x="-64.0" y="26.0" />
+    </edge>
+    <edge source="Menu" target="Supernova">
+      <point x="-28.235294117647072" y="-26.0" />
+      <point x="1279.4061703777552" y="650.0" />
+      <point x="325.3277390052061" y="650.0" />
+      <point x="325.3277390052061" y="508.0" />
+      <point x="337.9747978287355" y="508.0" />
+      <point x="-15.0" y="26.0" />
+    </edge>
+    <edge source="Test" target="Menu">
+      <point x="-37.77777777777783" y="26.0" />
+      <point x="619.5827462058267" y="82.0" />
+      <point x="0.0" y="82.0" />
+      <point x="0.0" y="670.0" />
+      <point x="1269.994405671873" y="670.0" />
+      <point x="-37.64705882352939" y="-26.0" />
+    </edge>
+    <edge source="BoutonInformation" target="Information">
+      <point x="23.0" y="-26.0" />
+      <point x="1668.6414644954023" y="508.0" />
+      <point x="1674.6388888888887" y="508.0" />
+      <point x="-51.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6927282668124658" x="904.5" y="371.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
